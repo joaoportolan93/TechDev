@@ -17,8 +17,10 @@
         gtag('js', new Date());
         gtag('config', 'SEU-ID');
     </script>
+    <!-- Adicione o Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
 </head>
-<body>
+<body data-theme="light">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top bg-white/90 backdrop-blur-sm shadow-sm">
         <div class="container">
@@ -30,8 +32,8 @@
                     <li class="nav-item"><a class="nav-link" href="#mercado">Mercado de Trabalho</a></li>
                     <li class="nav-item"><a class="nav-link" href="inscricao.html">Inscrição</a></li>
                 </ul>
-                <div class="d-flex align-items-center">
-                    <button id="theme-toggle" class="btn btn-outline-primary me-3">
+                <div class="d-flex align-items-center ms-3">
+                    <button id="theme-toggle" class="btn btn-outline-primary">
                         <i class="bi bi-moon-fill"></i>
                     </button>
                 </div>
@@ -52,8 +54,8 @@
                 <img src="assets/images/slide1.jpg" class="d-block w-100" alt="Desenvolvimento Web">
                 <div class="carousel-caption text-start">
                     <h1>Transforme seu futuro com tecnologia</h1>
-                    <p>Torne-se um desenvolvedor de sistemas completo em apenas 18 meses, com professores experientes e metodologia prática.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#inscricao">Inscreva-se agora</a></p>
+                    <p>Torne-se um desenvolvedor de sistemas completo em apenas 18 meses.</p>
+                    <p><a class="btn btn-lg btn-glow" href="inscricao.html">Inscreva-se agora</a></p>
                 </div>
             </div>
             <div class="carousel-item">
@@ -89,7 +91,11 @@
             <div class="row featurette">
                 <div class="col-md-7" data-aos="fade-right">
                     <h2 class="display-4 fw-bold">Por que escolher nosso curso?</h2>
-                    <p class="lead">Nosso curso técnico em Desenvolvimento de Sistemas foi cuidadosamente projetado para formar profissionais completos e preparados para os desafios do mercado de trabalho. Com uma grade curricular moderna e atualizada, você aprenderá:</p>
+                    <p class="lead">Transforme seu futuro com o curso técnico em Desenvolvimento de Sistemas!</p>
+                    <p>Você está pronto para dar o próximo grande passo na sua vida? Nosso curso técnico em Desenvolvimento de Sistemas foi cuidadosamente desenhado para te transformar no profissional que o mercado de trabalho deseja: completo, atualizado e pronto para os desafios de um mundo digital em constante evolução.</p>
+                    <p>Aqui, você vai dominar Programação Web Full Stack, aprendendo a criar sites e sistemas robustos e dinâmicos. Vai mergulhar no universo do Desenvolvimento Mobile, construindo aplicativos que impactam a vida das pessoas. Além disso, terá uma base sólida em Banco de Dados, fundamental para gerenciar e organizar informações no mundo conectado. E para coroar tudo isso, aprenderá as Metodologias Ágeis, a abordagem de trabalho mais procurada pelas grandes empresas para garantir eficiência e inovação.</p>
+                    <p>Com professores experientes, infraestrutura moderna e uma grade curricular que acompanha as tendências do mercado, este curso não é apenas uma formação técnica: é a sua porta de entrada para um futuro de realizações e sucesso. Aqui, você não aprende apenas a programar, mas a liderar projetos, solucionar problemas reais e se destacar em um mercado competitivo.</p>
+                    <p>Este não é apenas mais um curso. Este é o curso que pode mudar a sua vida. É aqui que você vai construir os alicerces para a carreira dos seus sonhos. Então, o que você está esperando? Venha ser protagonista da sua própria história de sucesso. Inscreva-se hoje mesmo!</p>
                     <ul class="list-unstyled mt-4">
                         <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i>Programação Web Full Stack</li>
                         <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i>Desenvolvimento Mobile</li>
@@ -106,9 +112,17 @@
 
     <!-- Mais seções aqui... -->
 
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3">
+        <div class="container text-center">
+            <p class="mt-3 text-muted">&copy; 2024 TechDev. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/theme.js"></script>
 </body>
 </html>
